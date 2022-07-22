@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // ------------------ Functions ------------------
   const toggleCheckbox = (inputCheck) => {
-    if (inputCheck.checked === true) {
+    if (inputCheck.checked) {
       inputCheck.parentElement.classList.add("active");
     }
     inputCheck.parentElement.addEventListener("click", (event) => {
